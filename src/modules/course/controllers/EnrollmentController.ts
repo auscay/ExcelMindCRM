@@ -303,8 +303,8 @@ export class EnrollmentController {
         return;
       }
 
-      const results = [];
-      const errors = [];
+      const results: any[] = [];
+      const errors: { enrollmentId: any; error: string }[] = [];
 
       for (const enrollmentId of enrollmentIds) {
         try {
@@ -355,8 +355,8 @@ export class EnrollmentController {
         return;
       }
 
-      const results = [];
-      const errors = [];
+      const results: any[] = [];
+      const errors: { enrollmentId: any; error: string }[] = [];
 
       for (const enrollmentId of enrollmentIds) {
         try {
